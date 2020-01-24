@@ -13,6 +13,14 @@ function DevItem({ dev }) {
             </header>
             <p>{dev.bio}</p>
             <a href={`https://github.com/${dev.github_username}`}>Acessar perfil no github</a>
+            <div className="input-group">
+              <div className="input-block"> 
+                <button onClick={dev.editar} id="editar">Editar</button>
+              </div>
+              <div className="input-block">
+                <button onClick={dev.excluir} id="excluir">Excluir</button>
+              </div>
+            </div>
         </li>
     )
 }

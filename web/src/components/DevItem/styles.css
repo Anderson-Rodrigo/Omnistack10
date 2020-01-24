@@ -49,3 +49,36 @@ li.dev-item a {
 li.dev-item a:hover {
     color: #5a2ea6
 }
+
+li button[id=excluir] {
+    width: 100%;
+    border: 0;
+    background: #e92c2c;
+    border-radius: 2px;
+    padding: 6px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+li button[id=editar] {
+    width: 100%;
+    border: 0;
+    background: #0fc053;
+    border-radius: 2px;
+    padding: 6px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+li .input-group {
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
